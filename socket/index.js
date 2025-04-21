@@ -11,7 +11,7 @@ const io = new Server({
   cors: {
     origin:
       process.env.NODE_ENV === "production"
-        ? "https://mern-auth-chat.onrender.com"
+        ? "https://real-chat-1-eng7.onrender.com/"
         : "http://localhost:5173",
   },
 });
